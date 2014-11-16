@@ -1,0 +1,13 @@
+{
+  "name": "Rails",
+  "description": "Rails Intro...",
+  "author": "Kurt Landrus",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+  "sections": [
+    {"section":"intro"},
+    {"section":"basics"}
+  ]
+}

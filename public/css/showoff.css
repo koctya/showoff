@@ -109,7 +109,7 @@
 }
 
 .content > pre {
-    font-size: 300%;
+    font-size: 200%;
 }
 .content > blockquote {
     font-size: 250%;
@@ -159,19 +159,19 @@
 
 /* ironically, normal lists have bullets and 'bullets' lists don't */
 .bullets > ul {
-    list-style: none;
-	font-size: 3em;
+  list-style: disc;
+	font-size: 2.5em;
 	padding-left: 0px;
 }
 .bullets > ul > li {
-    text-align: center;
+    //text-align: center;
     padding: 25px;
 }
 .smbullets > ul {
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 .smbullets > ul > li {
-    text-align: center;
+    //text-align: center;
     padding: 10px;
 }
 
@@ -227,7 +227,7 @@ h1 { font-size: 5em; }
 h2 { font-size: 3em; }
 h3 { font-size: 2em; }
 
-pre { margin: 1em 40px; padding: .25em; }
+pre { margin: 1em 140px; padding: .25em; }
 
 .notes { display: none }
 .hidden { position:absolute; top:0; left:-9999px; width:1px; height:1px; overflow:hidden; }
@@ -387,8 +387,8 @@ a.fg-button { float:left; }
   }
 
   .slide .center {
-    width: 800px;
-    height: 600px;
+    width: 1024px;
+    height: 768px;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -396,8 +396,8 @@ a.fg-button { float:left; }
 
   #preso, .slide {
       background: #fff;
-      width: 800px;
-      height: 600px;
+      width: 1024px;
+      height: 768px;
       margin-left:auto;
       margin-right:auto;
       overflow:hidden;

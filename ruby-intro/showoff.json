@@ -1,0 +1,15 @@
+{
+  "name": "Ruby Intro...",
+  "description": "Ruby Intro...",
+  "author": "Kurt Landrus",
+  "templates" : {
+      "special" : "simple.tpl"
+  },
+  "pause_msg": "Paused !!!",
+  "sections": [
+    {"section":"intro"},
+    {"section":"ruby4java_devs"},
+    {"section":"basics"},
+    {"section":"idioms"}
+  ]
+}

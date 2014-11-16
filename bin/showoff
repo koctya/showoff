@@ -2,7 +2,7 @@
 
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 require 'showoff'
-require 'showoff/version' 
+require 'showoff/version'
 require 'rubygems'
 require 'gli'
 
@@ -100,7 +100,7 @@ command :serve do |c|
 
   c.desc 'Host or ip to run on'
   c.default_value "localhost"
-  c.flag [:h,:host]  
+  c.flag [:h,:host]
 
   c.desc 'JSON file used to describe presentation'
   c.default_value "showoff.json"
@@ -171,7 +171,7 @@ end
 
 pre do |global,command,options,args|
   # Pre logic here
-  # Return true to proceed; false to abourt and not call the
+  # Return true to proceed; false to abort and not call the
   # chosen command
   true
 end
